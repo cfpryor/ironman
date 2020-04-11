@@ -1,9 +1,9 @@
 {
-	"num_items":5,
-	"row_size":2,
+	"num_items":15,
+	"row_size":5,
 	"method":"shuffle_random",
 	"seed":null,
 	"use_text":true,
-	"text_filename":"smash.txt",
+	"text_filename":"smash_ultimate.txt",
 	"images_directory":"smash"
 }
