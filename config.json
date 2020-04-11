@@ -1,0 +1,9 @@
+{
+	"size":15,
+	"row_size":5,
+	"shuffle_type":"random",
+	"seed":314159,
+	"text":true,
+	"text_path":"data/text/smash.txt",
+	"images_path":"data/images/smash"
+}
