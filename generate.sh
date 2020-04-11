@@ -6,12 +6,14 @@ readonly SCRIPTS_DIR="${BASE_DIR}/scripts"
 
 function main() {
    trap exit SIGINT
+
+   run
 }
 
 function run() {
    pushd . > /dev/null
 
-   cd "$(dirname ${SCRIPTS_DIR})"
+   cd ${SCRIPTS_DIR}
    python3 generate.py
 
    popd > /dev/null
